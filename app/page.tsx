@@ -10,6 +10,16 @@ import {
 
 const projects = [
   {
+  title: "Movie Discovery Platform",
+  tech: "Flutter • Riverpod • Firebase • Firestore",
+  description:
+    "Built a scalable movie discovery platform with Firebase-powered real-time updates, admin dashboard, movie management, favorites, and optional video trailer playback. Developed rapidly using AI-assisted development with Antigravity while maintaining production-style architecture and state management.",
+  link: "https://github.com/KeerthanaGIT-ios/Digify_Task",
+  image1: "movie-1.png",
+  image2: "movie-2.png",
+},
+  {
+    
     title: "Caribou Coffee",
     tech: "SwiftUI • Animations • State Management",
     description:
@@ -63,6 +73,7 @@ const skills = [
   "Git",
   "Postman",
   "Bloc",
+  "AI-Assisted Development",
 ];
 
 export default function Home() {
