@@ -240,7 +240,7 @@ export default function Home() {
             </h3>
 
             <p className="text-purple-300 mt-2">
-              iOS Developer • Dec 2024 – Present
+              iOS Developer • Dec 2024 – May 2026
             </p>
 
             <p className="text-zinc-400 mt-4 leading-7">
