@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Movie Discovery Platform
 
-## Getting Started
+A modern Flutter application for discovering movies with real-time content management powered by Firebase Firestore.
 
-First, run the development server:
+## 🚀 Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+* Browse movies with beautiful UI
+* Movie details screen with poster, overview, genres, and ratings
+* Optional video trailer playback
+* Favorites management
+* Real-time Firestore updates
+* Admin Dashboard
+
+  * Add new movies
+  * Edit existing movies
+  * Delete movies
+* Firebase-backed dynamic content
+* Responsive design
+* Loading and error states
+
+## 🏗️ Architecture
+
+The application follows a feature-based architecture using Riverpod for state management.
+
+```text
+lib/
+├── features/
+│   ├── home/
+│   ├── movie_details/
+│   ├── favorites/
+│   └── admin/
+├── models/
+├── services/
+├── providers/
+├── widgets/
+└── core/
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🛠️ Tech Stack
 
-You can start you can editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+* Flutter
+* Dart
+* Riverpod
+* Firebase Core
+* Cloud Firestore
+* Go Router
+* Video Player
+* Shimmer
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📱 Screenshots
 
-## Learn More
+### Home Screen
 
-To learn more about Next.js, take a look at the following resources:
+![Home](screenshots/home.png)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Movie Details
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+![Details](screenshots/details.png)
 
-## Deploy on Vercel
+### Admin Dashboard
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![Admin](screenshots/admin.png)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+### Add Movie Screen
+
+![Add Movie](screenshots/add_movie.png)
+
+## 🔥 Firebase Integration
+
+* Cloud Firestore acts as the single source of truth.
+* Movies are streamed in real time.
+* Admin updates instantly reflect on the Home screen.
+* Supports optional video trailer URLs.
+
+## 🎯 Problem Solving Highlights
+
+* Migrated from static JSON data to Firestore.
+* Implemented real-time UI updates using Firestore streams.
+* Added fallback image/video handling.
+* Built an in-app admin dashboard instead of a separate web portal.
+* Designed scalable feature-based architecture.
+
+## 📦 Installation
+
+```bash
+git clone <repository-url>
+cd DigiFyce_Task
+flutter pub get
+flutter run
+```
+
+## 👩‍💻 Developer
+
+Keerthana G
+
+* Flutter Developer
+* iOS Developer
+
+GitHub: https://github.com/KeerthanaGIT-ios
