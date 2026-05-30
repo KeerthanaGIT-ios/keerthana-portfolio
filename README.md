@@ -51,19 +51,23 @@ lib/
 
 ### Home Screen
 
-![Home](screenshots/home.png)
+<img width="1080" height="2400" alt="home" src="https://github.com/user-attachments/assets/835beed5-b849-403c-8a56-9adfce8fd274" />
+
 
 ### Movie Details
 
-![Details](screenshots/details.png)
+<img width="1080" height="2400" alt="details" src="https://github.com/user-attachments/assets/a9edc13d-bd8f-4ac7-9a00-f642d01f58b0" />
+
 
 ### Admin Dashboard
 
-![Admin](screenshots/admin.png)
+<img width="1080" height="2400" alt="admin" src="https://github.com/user-attachments/assets/9a275dcb-107d-4c65-9772-67f9f68958c7" />
+
 
 ### Add Movie Screen
 
-![Add Movie](screenshots/add_movie.png)
+<img width="1080" height="2400" alt="add_movie" src="https://github.com/user-attachments/assets/2890cbb1-7389-4257-8568-ebc05c2054b4" />
+
 
 ## 🔥 Firebase Integration
 
